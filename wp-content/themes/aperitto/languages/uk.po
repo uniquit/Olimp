@@ -1,0 +1,513 @@
+# Translation of Aperitto Theme in Ukrainian
+# This file is distributed under the same license as the Aperitto Theme package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aperitto\n"
+"POT-Creation-Date: 2019-07-25 12:56+0300\n"
+"PO-Revision-Date: 2021-08-05 00:56+0000\n"
+"Last-Translator: George Pattihis <gpattihis@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:134
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: archive.php:44 index.php:22 search.php:20
+msgid "&laquo; Prev"
+msgstr "&laquo; Попередні"
+
+#: comments.php:13 comments.php:33
+msgid "&larr; Older Comments"
+msgstr "&larr; Попередні коментарі"
+
+#: inc/woo-hooks.php:17
+msgid "Add to Cart"
+msgstr "До кошику"
+
+#: functions.php:99
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Добавте віджет сюди, щоб показати його в боковій колонці"
+
+#: inc/customizer/customizer-settings.php:687
+msgid "All rights reserved"
+msgstr "Всі права захищені"
+
+#. Name of the theme
+msgid "Aperitto"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Aperitto is a clean, simple, minimal and responsive WordPress theme.  The "
+"clean typography and spacious white layout make it great for any project. "
+"The user friendly customization options will get your site up and running in "
+"minutes. It features custom color options, customized layouts (left or right "
+"sidebar, full-width or centered content). Simple structured data mark-up, "
+"clean, valid and SEO-friendly code. Aperitto is ready to be used with child "
+"themes and is is developer-friendly with custom filters, hooks and actions. "
+"Fully compatible with WPML, WooCommerce and bbPress. Translation ready with "
+"German, Greek, French, Japanese, Polish, Russian, Turkish and Ukrainian "
+"included."
+msgstr ""
+
+#: footer.php:42
+msgid "Aperitto Theme"
+msgstr ""
+
+#: archive.php:30
+msgid "Archive"
+msgstr "Архів"
+
+#: archive.php:27
+msgid "Author archives"
+msgstr "Архіви автора"
+
+#: inc/customizer/customizer-settings.php:232
+msgid "Background with full repeat"
+msgstr "Фоном, повністю замостити"
+
+#: inc/customizer/customizer-settings.php:233
+msgid "Background with horizontal repeat"
+msgstr "Фоном з повторенням по горизонталі"
+
+#: inc/customizer/customizer-settings.php:234
+msgid "Background with vertical repeat"
+msgstr "Фоном з повторенням по вертикалі"
+
+#: inc/customizer/customizer-settings.php:231
+msgid "Background without repeat"
+msgstr "Фоном без повторення"
+
+#: inc/customizer/customizer-settings.php:121
+msgid "Blog home page H1"
+msgstr "H1 на головній сторінці блогу"
+
+#: sidebar.php:22
+msgid "Categories"
+msgstr "Категорії"
+
+#: archive.php:15
+msgid "Category"
+msgstr "Категорії"
+
+#: inc/customizer/customizer-settings.php:109
+msgid "Center"
+msgstr "По центру"
+
+#: inc/admin/meta-boxes.php:54 inc/customizer/customizer-settings.php:380
+#: inc/customizer/customizer-settings.php:406
+#: inc/customizer/customizer-settings.php:432
+#: inc/customizer/customizer-settings.php:459
+#: inc/customizer/customizer-settings.php:488
+#: inc/customizer/customizer-settings.php:529
+#: inc/customizer/customizer-settings.php:553
+#: inc/customizer/customizer-settings.php:577
+msgid "Centered Content"
+msgstr "По центру"
+
+#: inc/customizer/customizer-settings.php:300
+msgid "Choose main color"
+msgstr "Оберіїть основний колір"
+
+#: inc/customizer/customizer-settings.php:278
+msgid "Color & Layout"
+msgstr ""
+
+#: comments.php:9 inc/html-blocks.php:116
+msgid "Comments"
+msgstr "Коментарі"
+
+#: inc/customizer/customizer-settings.php:622
+msgid "Comments count"
+msgstr "Кількість коментарів"
+
+#: inc/customizer/customizer-settings.php:166
+msgid "Custom blog home H1"
+msgstr "Власний заголовок H1 для головної сторінки блогу"
+
+#: inc/customizer/customizer-settings.php:695
+msgid "Custom copyright text"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:636
+msgid "Customize footer"
+msgstr "Опції настройки підвала сайту"
+
+#: archive.php:21
+msgid "Day archives:"
+msgstr "Архіви за день:"
+
+#: inc/admin/meta-boxes.php:34
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: inc/customizer/customizer-settings.php:78
+msgid "Description"
+msgstr "Опис"
+
+#: functions.php:137
+msgid "Edit"
+msgstr "Редагувати"
+
+#: inc/customizer/customizer-settings.php:253
+msgid "Fit minimal header height to image height"
+msgstr ""
+"Встановити мінімальну висоту шапки сайту такою ж, як висота зображення "
+"заголовку"
+
+#: inc/customizer/customizer-settings.php:635
+msgid "Footer"
+msgstr "Підвал"
+
+#: functions.php:38
+msgid "Footer Menu"
+msgstr "Меню в підвалі"
+
+#: inc/admin/meta-boxes.php:49 inc/customizer/customizer-settings.php:379
+#: inc/customizer/customizer-settings.php:405
+#: inc/customizer/customizer-settings.php:431
+#: inc/customizer/customizer-settings.php:458
+#: inc/customizer/customizer-settings.php:487
+#: inc/customizer/customizer-settings.php:528
+#: inc/customizer/customizer-settings.php:552
+#: inc/customizer/customizer-settings.php:576
+msgid "Fullwidth Content"
+msgstr "На всю ширину"
+
+#. Author of the theme
+msgid "George Pattihis"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:480
+msgid "Global layout"
+msgstr "Структура інших сторінок сайту"
+
+#: inc/customizer/customizer-settings.php:17
+msgid "Header Logo/Title"
+msgstr ""
+
+#: header.php:83 header.php:86
+msgid "Home"
+msgstr "Головна"
+
+#: inc/customizer/customizer-settings.php:141
+msgid "Home H1 position"
+msgstr "Позиція заголовку H1"
+
+#: inc/customizer/customizer-settings.php:225
+msgid "How to display image"
+msgstr "Як відобразити зображення шапки"
+
+#. Author URI of the theme
+msgid "https://wordpress.org/support/users/pattihis/"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:230
+msgid "Image after site title"
+msgstr "Зображення після назви сайту"
+
+#: inc/customizer/customizer-settings.php:229
+msgid "Image before site title"
+msgstr "Зображення перед назвою сайту"
+
+#: inc/customizer/customizer-settings.php:481
+msgid "It is used when individual page layout is not set"
+msgstr "Використовується, коли не встановлена індивідуальна структура"
+
+#: 404.php:12
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Схоже нічого не знайдено за цією адресою. Можливо спробуєте пошук?"
+
+#: inc/customizer/customizer-settings.php:314
+msgid "Layout"
+msgstr "Структура"
+
+#: inc/customizer/customizer-settings.php:373
+msgid "Layout on Home"
+msgstr "Структура головної сторінки"
+
+#: inc/customizer/customizer-settings.php:425
+msgid "Layout on Page"
+msgstr "Структура сторінок"
+
+#: inc/customizer/customizer-settings.php:399
+msgid "Layout on Post"
+msgstr "Структура записів"
+
+#: inc/customizer/customizer-settings.php:452
+msgid "Layout on Search results page"
+msgstr "Структура сторінки пошуку"
+
+#: inc/customizer/customizer-settings.php:546
+msgid "Layout on WooCommerce Product page"
+msgstr "Структура сторінки товару WooCommerce"
+
+#: inc/customizer/customizer-settings.php:570
+msgid "Layout on WooCommerce Product's category"
+msgstr "Структура сторінки категорії товару WooCommerce"
+
+#: inc/customizer/customizer-settings.php:522
+msgid "Layout on WooCommerce Shop page"
+msgstr "Структура сторінки магазину WooCommerce"
+
+#: inc/customizer/customizer-settings.php:107
+msgid "Left"
+msgstr "Зліва"
+
+#: inc/admin/meta-boxes.php:44 inc/customizer/customizer-settings.php:378
+#: inc/customizer/customizer-settings.php:404
+#: inc/customizer/customizer-settings.php:430
+#: inc/customizer/customizer-settings.php:457
+#: inc/customizer/customizer-settings.php:486
+#: inc/customizer/customizer-settings.php:527
+#: inc/customizer/customizer-settings.php:551
+#: inc/customizer/customizer-settings.php:575
+msgid "Leftbar"
+msgstr "Ліва колонка"
+
+#: inc/customizer/customizer-settings.php:33
+msgid "Logo image display options"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:299
+msgid "Main color"
+msgstr "Головний колір"
+
+#: functions.php:37
+msgid "Main Menu"
+msgstr "Головне меню"
+
+#: inc/customizer/customizer-settings.php:280
+msgid "Main theme options"
+msgstr "Основні опції теми"
+
+#: inc/hooks.php:44
+msgid "Message"
+msgstr "Повідомлення"
+
+#: archive.php:23
+msgid "Monthly archives:"
+msgstr "Архіви за місяць:"
+
+#: inc/customizer/customizer-settings.php:147
+msgid "My custom title before posts"
+msgstr "Мій власний заголовок перед записами"
+
+#: comments.php:14 comments.php:34
+msgid "Newer Comments &rarr;"
+msgstr "Наступні коментарі &rarr;"
+
+#: archive.php:45 index.php:23 search.php:21
+msgid "Next &raquo;"
+msgstr "Наступні &raquo;"
+
+#: search.php:27
+msgid "No results for "
+msgstr "Нічого не знайдено для"
+
+#: inc/customizer/customizer-settings.php:37
+msgid "Only image, without text"
+msgstr "Тільки зображення, без назви сайту"
+
+#: 404.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "От халепа! Ця сторінка не існує."
+
+#: inc/customizer/customizer-settings.php:200
+msgid "Other"
+msgstr "Інше"
+
+#: inc/customizer/customizer-settings.php:594
+msgid "Other options"
+msgstr "Інші опції"
+
+#: content.php:50 page.php:23
+msgid "Page"
+msgstr ""
+
+#. %: Page number.
+#: content.php:53 page.php:26
+msgid "Page %"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:38
+msgid "Picture above the text"
+msgstr "Зображення над назвою"
+
+#: inc/customizer/customizer-settings.php:39
+msgid "Picture to the left of text"
+msgstr "Зображення зліва від назви"
+
+#: inc/customizer/customizer-settings.php:40
+msgid "Picture to the right of text"
+msgstr "Зображення справа від назви"
+
+#: inc/customizer/customizer-settings.php:41
+msgid "Picture under the text"
+msgstr "Зображення під назвою"
+
+#: inc/customizer/customizer-settings.php:620
+msgid "Post author"
+msgstr "Автор запису"
+
+#: inc/customizer/customizer-settings.php:621
+msgid "Post categories"
+msgstr "Категорії запису"
+
+#: inc/customizer/customizer-settings.php:615
+msgid "Post meta"
+msgstr "Мета дані запису"
+
+#: inc/customizer/customizer-settings.php:623
+msgid "Post tags"
+msgstr "Помітки запису"
+
+#: archive.php:52 index.php:30
+msgid "Posts not found"
+msgstr "Записів не знайдено"
+
+#: footer.php:41
+msgid "Powered by"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:619
+msgid "Publication date"
+msgstr "Дата публікації"
+
+#: inc/html-blocks.php:14
+msgid "Read more"
+msgstr "Читати далі"
+
+#: inc/customizer/customizer-settings.php:108
+msgid "Right"
+msgstr "Зправа"
+
+#: inc/admin/meta-boxes.php:39 inc/customizer/customizer-settings.php:377
+#: inc/customizer/customizer-settings.php:403
+#: inc/customizer/customizer-settings.php:429
+#: inc/customizer/customizer-settings.php:456
+#: inc/customizer/customizer-settings.php:485
+#: inc/customizer/customizer-settings.php:526
+#: inc/customizer/customizer-settings.php:550
+#: inc/customizer/customizer-settings.php:574
+msgid "Rightbar"
+msgstr "Права колонка"
+
+#: inc/hooks.php:41
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Збережіть своє ім'я, електронну адресу та веб-сайт в цьому браузері для моїх "
+"наступних коментарів."
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Пошук"
+
+#: search.php:6
+msgid "Search results for"
+msgstr "Результати пошуку по"
+
+#: inc/admin/meta-boxes.php:14
+msgid "Select Layout"
+msgstr "Оберіть структуру"
+
+#: inc/customizer/customizer-settings.php:315
+msgid "Set up layout for site pages"
+msgstr "Встановіть структуру для сторінок сайту"
+
+#: inc/customizer/customizer-settings.php:675
+msgid "Show 'Powered by' in footer"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:655
+msgid "Show 'Sitename © Year' in footer"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:353
+msgid "Show featured images on mobile"
+msgstr "Відображати зображення запису на мобільній версії"
+
+#: inc/customizer/customizer-settings.php:335
+msgid "Show sidebar on mobile"
+msgstr "Відображати бокову колонку на мобільній версії"
+
+#: inc/customizer/customizer-settings.php:184
+msgid "Show site description"
+msgstr "Відобразити опис сайту"
+
+#: functions.php:97
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: inc/customizer/customizer-settings.php:263
+msgid "Site Background"
+msgstr ""
+
+#: inc/customizer/customizer-settings.php:55
+msgid "Site title"
+msgstr "Назва сайту"
+
+#: inc/customizer/customizer-settings.php:146
+msgid "Site title in header"
+msgstr "Назва сайту в шапці"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: archive.php:18
+msgid "Tag"
+msgstr "Позначки"
+
+#: inc/html-blocks.php:119
+msgid "Tags: "
+msgstr "Помітки: "
+
+#: inc/customizer/customizer-settings.php:142
+msgid "This option not affect to other pages, for home blog page only."
+msgstr ""
+"Цей параметр не впливає на інші сторінки, окрім головної сторінки блогу."
+
+#: inc/customizer/customizer-settings.php:103
+msgid "Title position"
+msgstr "Позиція назви"
+
+#: inc/customizer/customizer-settings.php:616
+msgid "What meta information to display for posts"
+msgstr "Які мета-дані показувати для записів"
+
+#: inc/customizer/customizer-settings.php:504
+msgid "WooCommerce Layout"
+msgstr "Структура сторінок магазину WooCommerce"
+
+#: archive.php:25
+msgid "Year archives:"
+msgstr "Архіви за рік:"
+
+#: functions.php:141
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар знаходиться на модерації."
+
+#: inc/hooks.php:35
+msgid "Your E-mail"
+msgstr "Ваш e-mail"
+
+#: inc/hooks.php:33
+msgid "Your Name"
+msgstr "Ваше ім'я"
+
+#: inc/hooks.php:37
+msgid "Your Website"
+msgstr "Ваш веб-сайт"

@@ -1,0 +1,251 @@
+/*
+ You probably do not need to edit this at all.
+
+ Add some SmartMenus required styles not covered in Bootstrap 4's default CSS.
+ These are theme independent and should work with any Bootstrap 4 theme mod.
+*/
+
+
+/* Carets in collapsible mode (make them look like +/- buttons) */
+
+.navbar { 
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(10, 10, 10, 0.6);
+	position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+@media (max-width: 768px){
+.navbar {
+background-color: rgba(10, 10, 10,0.8);
+}}
+/*Toggle Button*/
+.navbar-toggler:hover, 
+.navbar-toggler:focus {
+	background-color: transparent;	
+}  
+
+/*Menu Css*/
+.navbar .nav .nav-item {
+    margin-right: 0;
+}  
+.navbar .nav .nav-item .nav-link, .navbar .nav .nav-item.html a, .navbar .nav .nav-item.radix-html a {                   
+	padding:0rem;
+	color: #fff;
+	font-size: 0.938rem;
+   font-weight: 400;
+}
+.navbar.navbar6 .nav .nav-item.menu-html a,.navbar.navbar6 .nav .nav-item.menu-html 
+{
+	color: #fff;
+	font-size: 0.938rem;
+   font-weight: 400;
+}
+.navbar .nav .nav-item.html,.navbar .nav .nav-item.radix-html{color: #fff;}
+ .navbar-nav .dropdown-menu {
+    background-color: #000000;
+}
+.dropdown-item{color: #fff; text-decoration: none;}
+.header-module {
+    padding-left: 0rem;
+    display: inline-block;
+}
+@media (min-width: 992px){
+.navbar .nav .nav-item .nav-link,.navbar .nav .nav-item.html ,.navbar .nav .nav-item.radix-html{ padding: 0.25rem 0.75rem;margin: 0.75rem 0;}
+.header-module {padding: 0.938rem 0rem 0.938rem 1rem;}
+}
+@media (max-width: 1199px) { .navbar .nav .nav-item {margin-right: 1.75rem;}}
+@media (max-width: 991px) {
+  .navbar .nav .nav-item {
+	margin-right: 0;
+	}
+	.navbar .nav .nav-item .nav-link {
+	line-height: 40px;
+	margin-right: 0;
+	display: block;
+	border-bottom: 1px solid #ededed55;
+	border-radius: 0;
+	text-align: left;
+	padding-left: 0.625rem;
+	}
+	.navbar.navbar6 .nav .nav-item.menu-html a
+	{
+	line-height: 40px;
+	margin-right: 0;
+	display: block;
+	border-bottom: 1px solid #ededed55;
+	border-radius: 0;
+	text-align: left;
+	padding-left: 0.625rem;	
+	}
+	.navbar.navbar6 .nav .nav-item.menu-html 
+	{
+	line-height: 40px;
+	margin-right: 0;
+	display: block;
+	border-bottom: 1px solid #ededed55;
+	border-radius: 0;
+	text-align: left;
+	}
+	.navbar .nav .nav-item.html,.navbar .nav .nav-item.radix-html
+	{
+		line-height: 40px;
+	margin-right: 0;
+	display: block;
+	border-bottom: 1px solid #ededed55;
+	border-radius: 0;
+	text-align: left;
+	padding-left: 0.625rem;	
+	}
+	.header-module {
+    padding-left: 0.625rem;
+    margin-top: 0.625rem;
+   }
+   .main-header-btn,.nav-item.radix-btn{margin-top: 0.625rem;}
+   .btn-box {margin-top: 0.625rem;}
+}
+.navbar .nav .nav-item.active .nav-link {
+   color: #ffffff;
+   border-radius: 8px;
+}
+.navbar-nav.sm-collapsible .sub-arrow {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin: -0.7em 0.5em 0 0;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-radius: .25rem;
+	padding: 0;
+	width: 2em;
+	height: 1.4em;
+	font-size: 1.25rem;
+	line-height: 1.2em;
+	text-align: center;
+}
+.navbar-nav .sub-arrow::before {
+	content: '+';
+}
+.navbar-nav .show > a > .sub-arrow::before {
+	content: '-';
+	padding-left: .1em;
+}
+.navbar-dark .navbar-nav.sm-collapsible .nav-link .sub-arrow {
+	border-color: rgba(255, 255, 255, .1);
+}
+/* make sure there's room for the carets */
+.navbar-nav.sm-collapsible .has-submenu {
+	padding-right: 3em;
+}
+/* keep the carets properly positioned */
+.navbar-nav.sm-collapsible .nav-link,
+.navbar-nav.sm-collapsible .dropdown-item {
+	position: relative;
+}
+
+/* Nav carets in expanded mode */
+.navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow {
+    margin-left: .255em;
+}
+/* point the arrows up for .fixed-bottom navbars */
+.fixed-bottom .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow,
+.fixed-bottom .navbar-nav:not(.sm-collapsible):not([data-sm-skip]) .dropdown-toggle::after {
+	border-top: 0;
+	border-bottom: .3em solid;
+}
+
+/* Dropdown carets in expanded mode */
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar-nav:not(.sm-collapsible) .dropdown-item .sub-arrow,
+.navbar-nav:not(.sm-collapsible):not([data-sm-skip]) .dropdown-menu .dropdown-toggle::after {
+	position: absolute;
+	right: 0;
+	margin-right: 1em;
+}
+/* make sure there's room for the carets */
+.navbar-nav:not(.sm-collapsible) .dropdown-item.has-submenu {
+	padding-right: 2em;
+}
+
+/* Scrolling arrows for tall menus */
+.navbar-nav .scroll-up,
+.navbar-nav .scroll-down {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	height: 20px;
+	overflow: hidden;
+	text-align: center;
+}
+.navbar-nav .scroll-up-arrow,
+.navbar-nav .scroll-down-arrow {
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-top: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid;
+	border-left: 7px solid transparent;
+}
+.navbar-nav .scroll-down-arrow {
+	top: 6px;
+	border-top: 7px solid;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+
+/* Add some spacing for 2+ level sub menus in collapsible mode */
+.navbar-nav.sm-collapsible .dropdown-menu .dropdown-menu {
+	margin: .5em;
+}
+
+/* Fix SmartMenus sub menus auto width (subMenusMinWidth/subMenusMaxWidth options) */
+.navbar-nav:not([data-sm-skip]) .dropdown-item {
+	white-space: normal;
+}
+.navbar-nav:not(.sm-collapsible) .sm-nowrap > li > .dropdown-item {
+	white-space: nowrap;
+}
+
+.dropdown-item.active, .dropdown-item:active,.dropdown-item:hover {
+    background-color: transparent;
+}
+.navbar-nav button.bg-light:focus, .navbar-nav button.bg-light:hover {
+     background-color: transparent !important; 
+}
+
+.navbar ul li .search-box-outer a:after , .navbar ul li .cart-header a:after {
+	content: none;
+}
+.navbar ul li a .menu-text:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.navbar ul li a .menu-text{
+    display: inline-block;
+}
+ 
+.navbar ul li a .menu-text:hover:after,.navbar .nav li.active .nav-link .menu-text:after,.navbar-nav .show .dropdown-menu > .active > .menu-text:after , .navbar-nav .show .dropdown-menu > .active > .menu-text:focus {
+   width: 100%;
+   left: 0; 
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+}
+
+  
+.navbar ul {margin: 0;}
+@media (min-width: 991px) {
+
+}

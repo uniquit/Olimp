@@ -1,0 +1,106 @@
+/*
+Theme Name: Architect Designs
+Theme URI: https://wpfrank.com/wordpress-themes/architect-design-free-wordpress-theme/
+Template: businessexpo
+Author: WP Frank
+Author URI: https://wpfrank.com/
+Description: Architect Designs is one of the fastest on the market, with high-quality code optimized for performance. the theme perfectly suited for business, blog, business promotion, electrician, industries, freelancer, lawyer, appointment, cooming soon, posts website, education, school, SEO, construction, wedding, music ,cafe, hotel, fashion, online shop, interior design, decoration, construction, corporate, agency,   Beauty & spa salons, photography, gym, travel agency and many other websites compatible, You will have lots of options to consider. As well as it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes with multiple homepage sections like slider, service, info, callout, testimonial, . This theme supports the best Elementor page builder to create, edit and updates page designs as per the requirement. Theme is fully responsive and compatible with popular WordPress plugins like Page Builder, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and more. Whether you’re running an online shopping store or setting up your website, BusinessExpo Theme gives everything you need for your business to grow online. 
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+Version: 0.1.2
+Tested up to: 5.8
+Requires PHP: 4.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: architect-designs
+*/
+
+p > a {
+    color: #d1d1d1;
+    background-color: transparent;
+    transition: ease-out 0.3s;
+}
+p > a:focus,
+p > a:hover {
+    color: #faa615;
+    background-color: transparent;
+    transition: ease-out 0.3s;
+}
+
+p {
+    margin: 1rem 0 1.25rem;
+}
+
+/*Link Underline CSS*/
+.entry-content a {
+    color: #faa615;
+	text-decoration: none;
+}
+
+.entry-content a {
+	box-shadow: 0 1px 0 0 currentColor;
+}
+
+.entry-content a:hover,
+.entry-content a:focus {
+    color: #ddd;
+    box-shadow: none;
+}
+
+.comments-area {
+    background-color: #212121 !important;
+}
+
+.form-control:focus{
+	box-shadow: 0 0 0 0.25rem rgb(250 166 21 / 59%);
+}
+
+.slider-caption .subtitle {
+	color: #faa615 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #faa615 !important;
+}
+.widget a:hover, .widget a:focus {
+    color: #faa615 !important;
+}
+
+.owl-theme .owl-nav button:hover {
+	background: #f9a515 !important;
+}
+
+.post .post-widget li:after {
+    color: #faa615;
+}
+
+/*Service CSS*/
+.service .post .inner-header .inner-title {
+	font-size:1.25rem;
+	padding-top: 20px;
+}
+
+.testimonial-wraper {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: fixed;
+    width: 100%;
+    z-index: 0;
+    background-size: unset;
+	overflow: hidden;
+}
+
+.testimonial-wraper:before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 9, 15, 0.8);
+}

@@ -1,0 +1,254 @@
+# Translation of Themes - SpicePress Dark in Russian
+# This file is distributed under the same license as the Themes - SpicePress Dark package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-30 16:51:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - SpicePress Dark\n"
+
+#. Description of the theme
+msgid "SpicePress Dark WordPress Theme is a lightweight, elegant, fully responsive, and translation-ready theme. It is flexible and suitable for agencies, blogs, businesses, corporate or portfolios. It comes with a predesigned home page, good-looking header designs, and several content sections that you can easily customize. It also has many customization options (banner, services, portfolio, etc) that will help you create a beautiful, unique website in no time. The theme is compatible with popular plugins like Polylang, WooCommerce and Contact Form 7."
+msgstr "SpicePress Dark  от WordPress — легковесная, элегантная, отзывчивая и готовая к переводу тема. Она гибкая и хорошо подходит для агентств, блогов, бизнеса, корпораций и  портфолио. Тема поставляется с заранее разработанной домашней страницей, красивым дизайном заголовков и рядом рубрик содержимого, которые вы можете с легкостью настроить. Она также имеет множество параметров настройки (баннер, услуги, портфолио и т.п.), которые помогут мгновенно создать вам красивый, уникальный сайт. SpicePress совместима с такими популярными плагинами, как WPML, Polylang, WooCommerce и Contact Form 7."
+
+#. Theme Name of the theme
+#: footer.php:16
+msgid "SpicePress Dark"
+msgstr "SpicePress Dark"
+
+#: index-news.php:90
+msgid "Read More"
+msgstr "Узнать больше"
+
+#: index-news.php:82
+msgid "Tag"
+msgstr "Метка"
+
+#: index-news.php:75
+msgid "in"
+msgstr "в"
+
+#: index-news.php:69
+msgid "By"
+msgstr "От"
+
+#: index-news.php:11
+msgid "Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor possim mei ludus efficiendi ei sea summo mazim ex."
+msgstr "Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor possim mei ludus efficiendi ei sea summo mazim ex."
+
+#: index-news.php:10
+msgid "Turpis mollis"
+msgstr "Turpis mollis"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:86
+msgid "Click here to apply these settings"
+msgstr "Нажмите здесь, чтобы применить эти настройки "
+
+#: footer.php:16
+msgid "SpiceThemes"
+msgstr "SpiceThemes"
+
+#: footer.php:16
+msgid "by"
+msgstr "by"
+
+#: footer.php:16
+msgid "| Theme:"
+msgstr "| Тема:"
+
+#: footer.php:16
+msgid "WordPress"
+msgstr "WordPress"
+
+#: footer.php:16
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
+
+#: footer.php:16
+msgid "Proudly powered by"
+msgstr "С гордостью работает на"
+
+#: admin/tab-pages/useful_plugins.php:22
+msgid "Want to get the list of the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "Хотите получить список последних изменений темы? Просто ознакомьтесь с журналом изменений ниже и узнайте о последних исправлениях и реализованных функциях."
+
+#: admin/tab-pages/useful_plugins.php:13
+msgid "We want to make sure you have the best experience using this theme, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using this theme as much as we enjoy creating great products."
+msgstr "Чтобы быть уверенными, что вы получите незабываемый опыт использования этой темы, мы собрали здесь всю необходимую вам информацию. Мы надеемся, что вам понравится тема так же, как нам нравится создавать великие продукты."
+
+#: admin/tab-pages/useful_plugins.php:12 admin/tab-pages/useful_plugins.php:14
+msgid "Contact Support"
+msgstr "Связаться с поддержкой"
+
+#: admin/tab-pages/getting-started.php:102
+#: admin/tab-pages/useful_plugins.php:21 admin/tab-pages/useful_plugins.php:23
+msgid "Changelog"
+msgstr "Изменения"
+
+#: admin/tab-pages/getting-started.php:95
+msgid "Free vs Pro"
+msgstr "Бесплатный vs Pro"
+
+#: admin/tab-pages/getting-started.php:87
+msgid "Premium Theme Details"
+msgstr "Детали премиум-темы"
+
+#: admin/tab-pages/getting-started.php:77
+msgid "Your feedback is valuable to us"
+msgstr "Ваше мнение важно для нас"
+
+#: admin/tab-pages/getting-started.php:68
+msgid "Theme Support"
+msgstr "Поддержка темы"
+
+#: admin/tab-pages/getting-started.php:59
+msgid "PRO Demo"
+msgstr "Про-демо"
+
+#: admin/tab-pages/getting-started.php:50
+msgid "Lite Demo"
+msgstr "Демо Lite-версии"
+
+#: admin/tab-pages/getting-started.php:43
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+#: admin/tab-pages/getting-started.php:35
+msgid "SpicePress Dark theme"
+msgstr "Тема SpicePress Dark"
+
+#: admin/tab-pages/getting-started.php:29
+msgid "Go to the Customizer"
+msgstr "Перейти к Настройщику"
+
+#: admin/tab-pages/getting-started.php:26
+msgid "To take full advantage of all the features this theme has to offer, install and activate the Spice Box plugin. Go to Customize and install the Spice Box plugin."
+msgstr "Чтобы воспользоваться полным спектром функций этой темы, пожалуйста, установите и активируйте плагин Spice Box. Перейдите в настройки и установите плагин Spice Box."
+
+#: admin/tab-pages/getting-started.php:12
+msgid "About the SpicePress Dark theme"
+msgstr "О теме SpicePress Dark"
+
+#: admin/tab-pages/getting-started.php:20
+msgid "You can use this theme for any type of activity. The theme is compatible with popular plugins like WPML and Polylang. To help you create an effective and impactful web presence, It has predefined versions of some pages: Contact and About Us."
+msgstr "Вы можете использовать эту тему для любого вида деятельности. Она совместима с такими популярными плагинами, как WPML и Polylang. Чтобы помочь вам создать эффективное и полное присутствие в Интернете, тема предлагает предустановленные версии некоторых страниц: «Контакты», «О нас»."
+
+#: admin/inc/include-companion.php:98
+msgid "Activate now"
+msgstr "Активировать сейчас"
+
+#: admin/inc/include-companion.php:97
+msgid "Activate Spice Box now"
+msgstr "Активировать Spice Box сейчас"
+
+#: admin/inc/include-companion.php:96
+msgid "You have installed the Spice Box plugin. To take advantage of this theme's features in the customizer, you need to activate it."
+msgstr "Вы установили плагин Spice Box. Чтобы воспользоваться полным спектром функций этой темы в настройщике, пожалуйста, активируйте плагин. "
+
+#: admin/inc/include-companion.php:80
+msgid "Install Spice Box Now"
+msgstr "Установить Spice Box сейчас"
+
+#: admin/inc/include-companion.php:79
+msgid "To take advantage of this theme's features in the customizer you need to install the Spice Box plugin."
+msgstr "Чтобы воспользоваться полным спектром функций этой темы в настройщике, установите, пожалуйста, плагин Spice Box."
+
+#: admin/inc/class-spicethemes-about-page.php:477
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: admin/inc/class-spicethemes-about-page.php:471
+#: admin/inc/include-companion.php:80 admin/inc/include-companion.php:97
+msgid "Spice Box"
+msgstr "Spice Box"
+
+#: admin/inc/class-spicethemes-about-page.php:344
+msgid "Active"
+msgstr "Активен"
+
+#: admin/inc/class-spicethemes-about-page.php:341
+msgid "Activate"
+msgstr "Активировать"
+
+#: admin/inc/class-spicethemes-about-page.php:339
+msgid "Activate %s now"
+msgstr "Активировать %s сейчас"
+
+#: admin/inc/class-spicethemes-about-page.php:322
+#: admin/inc/include-companion.php:81
+msgid "Install and activate"
+msgstr "Установить и активировать"
+
+#: admin/inc/class-spicethemes-about-page.php:320
+msgid "Install %s now"
+msgstr "Установить %s сейчас"
+
+#: admin/inc/class-spicethemes-about-page.php:244
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/inc/class-spicethemes-about-page.php:236
+msgid "Recommended Actions"
+msgstr "Рекомендуемые действия"
+
+#: admin/inc/class-spicethemes-about-page.php:231
+#: admin/tab-pages/getting-started.php:23
+msgid "Getting Started"
+msgstr "Начать работу"
+
+#: admin/inc/class-spicethemes-about-page.php:134
+msgid "Get started with SpicePress Dark theme"
+msgstr "Начать работу с темой SpicePress Dark"
+
+#: admin/inc/class-spicethemes-about-page.php:133
+msgid "SpicePress Dark theme is installed. To take full advantage of the features this theme has to offer visit our %1$swelcome page%2$s"
+msgstr "Тема SpicePress Dark установлена. Чтобы воспользоваться всеми её преимуществами,  посетите нашу %1$sприветственную страницу%2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:120
+msgid "Welcome to %1$s %2$s"
+msgstr "Добро пожаловать в %1$s%2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:119
+msgid "About %1$s %2$s"
+msgstr "Про %1$s %2$s"
+
+#: admin/inc/class-spicethemes-about-page.php:111
+msgid "View Theme Info"
+msgstr "Просмотреть информацию о теме"
+
+#: admin/inc/class-spicethemes-about-page.php:72
+#: admin/inc/include-companion.php:43 admin/inc/plugin-include-control.php:42
+msgid "Error"
+msgstr "Ошибка"
+
+#: admin/inc/class-spicethemes-about-page.php:71
+#: admin/inc/include-companion.php:42 admin/inc/plugin-include-control.php:41
+msgid "Activating"
+msgstr "Активация"
+
+#: admin/inc/class-spicethemes-about-page.php:70
+#: admin/inc/include-companion.php:41 admin/inc/plugin-include-control.php:40
+msgid "Installing"
+msgstr "Установка"
+
+#. Author URI of the theme
+#: footer.php:16
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"
+
+#. Author of the theme
+msgid "spicethemes"
+msgstr "spicethemes"
+
+#. Theme URI of the theme
+#: footer.php:16
+msgid "https://spicethemes.com/spicepress-dark-wordpress-theme/"
+msgstr "https://spicethemes.com/spicepress-dark-wordpress-theme/"
